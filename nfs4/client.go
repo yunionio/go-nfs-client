@@ -16,7 +16,7 @@ import (
 	"time"
 )
 
-const NfsReadBlockLen = 512 * 1024
+const NfsReadBlockLen = 256 * 1024
 
 var standardNfsAttrs = Bitmap4{
 	1<<FATTR4_TYPE | 1<<FATTR4_SIZE,
